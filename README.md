@@ -17,7 +17,7 @@ Dentro da VPC, criamos duas sub-redes para segmentar os recursos e melhorar a se
 
 **Sub-rede privada (10.0.2.0/24)**:
 
-- Essa sub-rede é isolada da internet para proteger os dados sensíveis. Apenas os recursos internos têm acesso a ela, por meio de regras específicas:
+- Essa sub-rede é isolada da internet para proteger os dados sensíveis. Apenas os recursos internos têm acesso a ela, por meio de regras específicas
 
 - **Banco de Dados**: responsável pelo armazenamento seguro das informações (por isso está na sub-rede privada, a fim de não estar diretamente exposto à internet).
 - **NAT Gateway**: permite que os recursos privados realizem tarefas que exigem acesso à internet sem comprometer a segurança da sub-rede privada
