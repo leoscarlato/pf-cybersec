@@ -44,6 +44,12 @@ Tutorial que seguimos: https://documentation.wazuh.com/current/user-manual/wazuh
 
 #### PRITUNL (VPN)
 
+Recursos Implentados: 
+- Autenticação por dois fatores via Google Autenticatior
+- Server VPN Admin com acesso completo a todas as máquinas: 10.0.0.0/16
+- Server VPN Database com acesso restrito apenas para a Subnet 10.0.2.0/32
+- Log de autenticação dos usuários à VPN
+
 ![image](https://github.com/user-attachments/assets/887442f5-2592-4901-a905-1f62a358e0b4)
 
 Teste de Segurança de acesso SSH
