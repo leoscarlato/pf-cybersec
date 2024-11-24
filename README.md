@@ -31,6 +31,13 @@ Dentro da VPC, criamos duas sub-redes para segmentar os recursos e melhorar a se
 
 ![image](https://github.com/user-attachments/assets/8c9cab28-de04-4292-8be3-a9d32c2a1b37)
 
+Obs.: Ao entrar no IP relacionado ao serviço do Wazuh, é mostrado que não é um site seguro, mesmo realizando as mudanças de certificado SSL.
+
+![image](https://github.com/user-attachments/assets/e7dfbca2-77c8-4d82-b9d8-c4a620e6a018)
+
+Tutorial que seguimos: https://documentation.wazuh.com/current/user-manual/wazuh-dashboard/configuring-third-party-certs/ssl.html
+
+
 #### FastAPI
 
 ![image](https://github.com/user-attachments/assets/32575907-5a6b-4e43-bbaa-9c3cbb1fabb1)
