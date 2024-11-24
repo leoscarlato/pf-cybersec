@@ -46,6 +46,16 @@ Tutorial que seguimos: https://documentation.wazuh.com/current/user-manual/wazuh
 
 ![image](https://github.com/user-attachments/assets/887442f5-2592-4901-a905-1f62a358e0b4)
 
+Teste de Segurança de acesso SSH
+
+Acesso negado para acesso via IP público:
+![image](https://github.com/user-attachments/assets/5b1e3889-057c-4545-8a76-8d966de4c436)
+
+Acesso para usuário conectado na vpn:
+![image](https://github.com/user-attachments/assets/4126c9b6-e085-4f95-a3af-d3ed706ac4e2)
+
+
+
 
 ### Vídeo demonstrativo do ambiente em funcionamento
 
