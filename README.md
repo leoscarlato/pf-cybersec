@@ -22,6 +22,21 @@ Dentro da VPC, criamos duas sub-redes para segmentar os recursos e melhorar a se
 - **Banco de Dados**: responsável pelo armazenamento seguro das informações (por isso está na sub-rede privada, a fim de não estar diretamente exposto à internet).
 - **NAT Gateway**: permite que os recursos privados realizem tarefas que exigem acesso à internet sem comprometer a segurança da sub-rede privada
 
+### Cloudflare
+
+A plataforma Cloudflare foi utilizada como uma ferramenta robusta para performance, segurança e estabilidade dos serviços online. Os servidores Cloudflare atuam como intermediários entre os visitantes de um site e o servidor de origem, respondendo às solicitações DNS, entregando conteúdo em cache e filtrando tráfego malicioso.
+
+![image](https://github.com/user-attachments/assets/85423b15-48f4-46d7-b25e-0ca060bb8a05)
+
+
+Sobre o DNS foram registrados os serviços:
+
+|Serviço|Subdomínio|
+|-----|-----|
+|FastApi|api|
+|Zabbix|sec|
+|Wazuh|dash|
+
 ### Serviços em funcionamento
 #### Zabbix
 
